@@ -72,7 +72,7 @@
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
     "test": "jest",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepare": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
